@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Resume | My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet"/>
+  <style>
+    :root {
+      --navy: #337267;
+      --gold: #c9a84c;
+    }
+    body { font-family: 'Georgia', serif; background: #f4f6f8; }
+
+    .navbar { background: var(--navy) !important; }
+    .navbar-brand, .nav-link { color: white !important; }
+    .nav-link:hover { color: var(--gold) !important; }
+
+    .resume-wrapper {
+      max-width: 860px;
+      margin: 48px auto;
+      background: white;
+      padding: 48px 56px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+      border-radius: 10px;
+    }
+
+    .resume-header { border-bottom: 3px solid var(--navy); padding-bottom: 16px; margin-bottom: 32px; }
+    .resume-header h1 { font-size: 2.4rem; color: var(--navy); font-weight: 700; margin-bottom: 4px; }
+    .resume-header p { color: #555; font-size: 1rem; margin: 0; }
+
+    .section-heading {
+      color: var(--navy);
+      font-size: 1.1rem;
+      font-weight: 700;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      border-bottom: 2px solid var(--gold);
+      padding-bottom: 4px;
+      margin: 32px 0 16px;
+    }
+
+    .job-title { font-weight: 700; color: #222; margin-bottom: 2px; }
+    .job-meta { color: var(--gold); font-size: 0.93rem; font-weight: 600; margin-bottom: 6px; }
+    .resume-entry { margin-bottom: 20px; }
+    ul.resume-list { padding-left: 20px; margin-bottom: 0; }
+    ul.resume-list li { margin-bottom: 4px; color: #444; }
+
+    .skill-tag {
+      display: inline-block;
+      background: #e8edf2;
+      color: var(--navy);
+      border-radius: 16px;
+      padding: 4px 14px;
+      font-size: 0.88rem;
+      margin: 3px;
+    }
+
+    @media print {
+      .navbar, .back-btn { display: none; }
+      .resume-wrapper { box-shadow: none; margin: 0; padding: 24px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">My Portfolio</a>
+    <div>
+      <a class="nav-link d-inline" href="index.html">Home</a>
+      <br>
+      <a class="nav-link d-inline" href="resume.html">Resume</a>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="resume-wrapper">
+
+    <!-- Header -->
+    <div class="resume-header">
+      <h1>Olivia "Liv" Pedersen</h1>
+      <p>
+        UT &nbsp;|&nbsp;
+        livyj04@byu.edu &nbsp;|&nbsp;
+        +1 (801) 677-6767 &nbsp;|&nbsp;
+        <a href="https://linkedin.com" target="_blank" style="color:var(--gold);">LinkedIn</a>
+      </p>
+    </div>
+
+    <!-- Education -->
+    <div class="section-heading">Education</div>
+    <div class="resume-entry">
+      <div class="job-title">Brigham Young University - Provo</div>
+      <div class="job-meta">Pre-Business: Experience Design & Managment &nbsp;·&nbsp; Expected Graduation: May 2028 </div>
+      <ul class="resume-list">
+        <li>GPA: 3.9 (as of right now)</li>
+        <li>Relevant Coursework: IS 201, IS 110, ACC 200, & Dinosaurs!</li>
+        <li>BYUSA: Leadership Education Director Scholarship</li>
+      </ul>
+    </div>
+
+    <!-- Experience -->
+    <div class="section-heading">Experience</div>
+
+    <div class="resume-entry">
+      <div class="job-title">FSY Counselor</div>
+      <div class="job-meta">For the Strength of Youth (FSY) &nbsp;·&nbsp; Summer [Year]</div>
+      <ul class="resume-list">
+        <li>Supervised and mentored a group of 10–15 youth participants throughout a week-long conference.</li>
+        <li>Facilitated daily discussions, activities, and devotionals focused on personal development and values.</li>
+        <li>Collaborated with co-counselors and program directors to ensure a safe, positive environment.</li>
+        <li>Developed strong leadership, conflict resolution, and communication skills.</li>
+      </ul>
+    </div>
+
+    <div class="resume-entry">
+      <div class="job-title">Office of Belonging: Student Event Coordinator</div>
+      <div class="job-meta">BYU Provo &nbsp;·&nbsp; Jan.2026 – Current Position</div>
+      <ul class="resume-list">
+        <li>Help plan and execute all of the events run and hosted by the Office of Belonging.</li>
+        <li>A part of a new branch for Swig, trailblazed many events and new contracts with multiple well-renowned venues accross UT.</li>
+        <li>Improved and perfected customer service skills.</ul>
+      </ul>
+
+      <div class="resume-entry">
+      <div class="job-title">Swig Catering: Daymaker</div>
+      <div class="job-meta">The Swig Company, LLC&nbsp;·&nbsp; Sept. 2025 – Current Position</div>
+      <ul class="resume-list">
+        <li>We create exceptional experiences for all different kinds of events from weddings to corprate networking events to private influencer events.</li>
+        <li>Started as an intern, and was eventually hired on due to work ethic and inovated ideas.</li>
+        <li>Assisted in redesigning the website to increase UX and better match the website's intended audidence.</li>
+      </ul>
+    </div>
+
+    <!-- Volunteer / Leadership -->
+    <div class="section-heading">Volunteer &amp; Leadership</div>
+    <div class="resume-entry">
+      <div class="job-title">Student Association Volunteer</div>
+      <div class="job-meta">Aug. 2022 - May 2023 & Aug. 2025 - Apr. 2026</div>
+      <ul class="resume-list">
+        <li>I was able to volunteer my time to help plan and carry out memorable and inclusive activities put on by both the BYU and Utah Tech Student Associations.</li>
+      </ul>
+    </div>
+
+    <div class="resume-entry">
+      <div class="job-title">Missionary for the Church of Jesus Christ of Latter-Day Saints</div>
+      <div class="job-meta">July 2023 - Dec. 2024</div>
+      <ul class="resume-list">
+        <li>I chose to leave home for a year and a half to go on a faith-building Christian ministry. During that time I was able to completely immerse myself in a life full of teaching, service, and love for all of the different kinds of people I was fortunate enough to meet.</li>
+      </ul>
+    </div>
+
+    <!-- Skills -->
+    <div class="section-heading">Skills</div>
+    <div>
+      <span class="skill-tag">Microsoft Word & Excel</span>
+      <span class="skill-tag">PowerPoint</span>
+      <span class="skill-tag">HTML &amp; CSS</span>
+      <span class="skill-tag">Leadership</span>
+      <span class="skill-tag">Public Speaking</span>
+      <span class="skill-tag">Teamwork</span>
+      <span class="skill-tag">Customer Service</span>
+       <span class="skill-tag">Soda Bar Tender</span>
+        <span class="skill-tag">Master of the Sandwich Dance</span>
+    </div>
+
+    <!-- Honors & Awards -->
+    <div class="section-heading">Honors &amp; Awards</div>
+    <div class="resume-entry">
+      <ul class="resume-list">
+        <li>Employee of the Month - Swig Daymaker</li>
+        <li>Volunteer of the Month - UTSA</li>
+        <li>BYUSA Student Director</li>
+      </ul>
+    </div>
+
+  </div><!-- end resume-wrapper -->
+</div><!-- end container -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
