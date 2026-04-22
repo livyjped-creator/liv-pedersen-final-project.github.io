@@ -16,10 +16,7 @@
 body {
   font-family: 'Source Sans 3', sans-serif;
   color: var(--text-dark);
-  background-color: var(--sky);    
-  background-image:
-    radial-gradient(circle at 15% 20%, rgba(255,255,255,0.5) 0%, transparent 55%),
-    radial-gradient(circle at 85% 80%, rgba(180,215,240,0.4) 0%, transparent 50%);
+  background-color: var(--sky);
   margin: 0;
   padding: 0;
 }
@@ -61,11 +58,11 @@ body {
 }
 
 #hero-div h1 {
-  font-family: 'Playfair Display', serif;   /* font family style */
+  font-family: 'Playfair Display', serif;   
   font-size: 3rem;
   margin-bottom: 12px;
   color: white;
-  font-style: italic;                              /* font color style */
+  font-style: italic;                              
 }
 
 #hero-div p {
